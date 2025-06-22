@@ -26,6 +26,7 @@ export class DynamicCanvasComponent implements OnChanges {
 
   onResize(event: Event){
     this.SetCanvasSize();
+    this.Draw();
   }
 
     onPaste(event: ClipboardEvent) {
