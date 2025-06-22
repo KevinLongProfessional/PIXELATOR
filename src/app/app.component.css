@@ -1,0 +1,13 @@
+.flex-row{
+    display: flex;
+}
+
+
+input[type=range]
+{
+    flex: 1;
+}
+
+.page-container{
+    width: 50vw;
+}
